@@ -3,7 +3,7 @@
 Hands-on lab for **Module 2 — Codex Cloud & MCP Engineering Workflows**  
 from the course **Coding Assistants & AI-Agents**.
 
-This lab recreates a real-world workflow inspired by (the Docker MCP Toolkit demo)[https://www.docker.com/blog/how-to-set-up-gemini-cli-with-mcp-toolkit/], but using **Codex** instead of Gemini.
+This lab recreates a real-world workflow inspired by [the Docker MCP Toolkit demo](https://www.docker.com/blog/how-to-set-up-gemini-cli-with-mcp-toolkit/), but using **Codex** instead of Gemini.
 
 Students will learn how to integrate **Codex + MCP servers + Docker** to inspect, modify, and validate a real application.
 
@@ -15,14 +15,16 @@ give Codex access to third-party documentation, or to let it interact with devel
 tools like your browser or Figma. — Open AI
 
 For more information about how to configure MCP servers for Codex read 
-the (documentation)[https://developers.openai.com/codex/mcp/].
+the [documentation](https://developers.openai.com/codex/mcp/).
 
 ### Docker MCP Catalog and Toolkit
 > The challenge is that running MCP servers locally creates operational friction. Each server requires separate installation and configuration for every application you use. You run untrusted code directly on your machine, manage updates manually, and troubleshoot dependency conflicts yourself.
 
-The MCP Toolkit and MCP Gateway solve these challenges through centralized management. You set things up once and connect all your clients to it. For further information read (Docker MCP Catalog and Toolkit)[https://docs.docker.com/ai/mcp-catalog-and-toolkit/]
+The MCP Toolkit and MCP Gateway solve these challenges through centralized management. You set things up once and connect all your clients to it. For further information read [Docker MCP Catalog and Toolkit](https://docs.docker.com/ai/mcp-catalog-and-toolkit/)
 
-Also you may watch the Youtube's video (How to Use Docker MCP Catalog and Toolkit (Docker Tutorial))[https://www.youtube.com/watch?v=6I2L4U7Xq6g].
+Also you may watch the Youtube's video [How to Use Docker MCP Catalog and Toolkit (Docker Tutorial)](https://www.youtube.com/watch?v=6I2L4U7Xq6g).
+
+For more examples **integrating Docker MCP Toolkit with Codex** read [How to add MCP Servers to OpenAI’s Codex with Docker MCP Toolkit](https://www.docker.com/blog/connect-codex-to-mcp-servers-mcp-toolkit/), where not only the author guides you on how to configure Docker MCP Toolkit for Codex, but also builds the use case: Building a Pokémon Graph with Codex + Neo4j. 
 
 ## I. Learning Objectives
 
@@ -231,9 +233,9 @@ This is brief overview of skills for OpenAI Codex.
 instructions, resources, and optional scripts so Codex can follow a workflow reliably. 
 You can share skills across teams or with the community. — Open AI
 
-Read the (documentation)[https://developers.openai.com/codex/skills/] for further information.
+Read the [documentation](https://developers.openai.com/codex/skills/) for further information.
 
-* Other sources: [https://www.youtube.com/watch?v=en0It1zBjpw].
+* Other sources: [YouTube](https://www.youtube.com/watch?v=en0It1zBjpw).
 
 ### QuickStart 
 1. Execute `codex` and then press the command `\skills`.
@@ -243,14 +245,14 @@ Skill Creator -> $skill-creator
 Skill Installer -> $skill-installer
 ```
 
-For more information visit (OpenAI Agents Skills)[https://developers.openai.com/codex/skills/].
+For more information visit [OpenAI Agents Skills](https://developers.openai.com/codex/skills/).
 
 ### Exercice
-1. Install the skill ($agent-skill-evaluator)[https://github.com/JeredBlu/eval-marketplace/tree/main]
-2. Evalute the skill ($playwright-skill)[https://github.com/lackeyjb/playwright-skill/tree/main] with $agent-skill-evaluator.
+1. Install the skill [$agent-skill-evaluator](https://github.com/JeredBlu/eval-marketplace/tree/main)
+2. Evalute the skill [$playwright-skill](https://github.com/lackeyjb/playwright-skill/tree/main) with $agent-skill-evaluator.
 
 ### Best Practices
-* Source: [https://www.youtube.com/watch?v=d3Ydt6LyGeY&t=12s]. 
+* Source: [YouTube](https://www.youtube.com/watch?v=d3Ydt6LyGeY&t=12s). 
 
 Avoid these common mistakes when designing skills or agent capabilities.
 
