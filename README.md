@@ -48,10 +48,12 @@ Follow these steps to reproduce the session.
 ### Step 1: Set Up an e-Commerce Catalog application
 For this demo, we’ll use a real e-commerce catalog application. This gives us realistic performance and accessibility issues to discover.
 
-1. Clone the repository:
+1. Fork the repository: https://github.com/ajeetraina/catalog-service-node
+
+2. Clone the repository:
 ```bash
-git clone https://github.com/sergio-fernandez97/codex-docker-mcp-ecommerce-lab.git
-cd codex-docker-mcp-ecommerce-lab
+git clone https://github.com/<my_user>/catalog-service-node
+cd catalog-service-node
 ```
 
 2. Start all services:
