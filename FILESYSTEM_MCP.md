@@ -10,6 +10,7 @@ The Filesystem MCP allows Gemini to save screenshots and test artifacts to your 
 4. Go to the Configuration tab
 5. Under filesystem.paths, add your project directory:
     * Example: /Users/yourname/catalog-service-node
+    * Screenshots are saved at /tmp/
     * Or wherever you cloned the repository
 6. You can add multiple paths by clicking the + button
 7. Click Save
